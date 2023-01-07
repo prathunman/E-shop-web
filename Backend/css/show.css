@@ -1,0 +1,167 @@
+body{
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #010000;
+}
+.imageup{
+  width: 100px;
+}
+h1,center{
+    font-size: 40px;
+    text-align: center;
+    color: #006400;
+}
+
+ th{
+    border: 1px solid black;
+    color: #483D8B;
+    text-align: center;
+    
+  }
+
+  td {
+    height: 50px;
+    vertical-align: bottom;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+    font-size: 30px;
+    text-align: center;
+   
+  }
+  th{
+    padding: 15px;
+    text-align: left;
+    border: 1px solid black;
+    font-size: 30px;
+  }
+
+  tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border:#4CAF50;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid 4CAF50;
+    border-radius: 5px;
+    font-weight: bolder;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #af4c4c;
+  }
+  
+  .button2:hover {
+    background-color: #af4c4c;
+    color: white;
+  }
+
+  #menu-btn{
+    margin-left: 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+    color:var(--white);
+    display: none;
+ }
+ 
+ .add-product-form{
+    max-width: 50rem;
+    background-color: var(--bg-color);
+    border-radius: .5rem;
+    padding:2rem;
+    margin:0 auto;
+    margin-top: 2rem;
+ }
+ 
+ .add-product-form h3{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color:var(--black);
+    text-transform: uppercase;
+    text-align: center;
+ }
+ 
+ .add-product-form .box{
+    text-transform: none;
+    padding:1.2rem 1.4rem;
+    font-size: 1.7rem;
+    color:var(--black);
+    border-radius: .5rem;
+    background-color: var(--white);
+    margin:1rem 0;
+    width: 100%;
+ }
+ 
+ .display-product-table table{
+    width: 100%;
+    text-align: center;
+ }
+ 
+ .display-product-table table thead th{
+    padding:1.5rem;
+    font-size: 2rem;
+    background-color: var(--black);
+    color:var(--white);
+ }
+ 
+ .display-product-table table td{
+    padding:1.5rem;
+    font-size: 2rem;
+    color:var(--black);
+ }
+ 
+ .display-product-table table td:first-child{
+    padding:0;
+ }
+ 
+ .display-product-table table tr:nth-child(even){
+    background-color: var(--bg-color);
+ }
+ 
+ .display-product-table .empty{
+    margin-bottom: 2rem;
+    text-align: center;
+    background-color: var(--bg-color);
+    color:var(--black);
+    font-size: 2rem;
+    padding:1.5rem;
+ }
+ 
+ .edit-form-container{
+    position: fixed;
+    top:0; left:0;
+    z-index: 1100;
+    background-color: var(--dark-bg);
+    padding:2rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+ }
+ 
